@@ -1,6 +1,7 @@
 def reverse_each_word(word)
-  reversed_word = word.split(" ")
-  reversed_word.each do |drow| drow.reverse
+  word.split(" ")
+  word.each do |drow| drow.reverse
+  reversed_word = drow
 end
-drow.flatten
+reversed_word
 end
